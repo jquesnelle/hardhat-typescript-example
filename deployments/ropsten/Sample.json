@@ -1,0 +1,112 @@
+{
+  "address": "0xDF23b6fdDf3D98c50dfc987F80157532042e6Bd6",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "lastMathResult",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "x",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "y",
+          "type": "uint256"
+        }
+      ],
+      "name": "math",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x142abe21a4d3d41303774407f0a5405bb1719fe4eebe4748ead0e7126cc49e37",
+  "receipt": {
+    "to": null,
+    "from": "0x29131Af4aD48Db8eE4ebEB5c84c29e85F6e2a060",
+    "contractAddress": "0xDF23b6fdDf3D98c50dfc987F80157532042e6Bd6",
+    "transactionIndex": 27,
+    "gasUsed": "111169",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x6b1edb4d6351d1739ce9319c782476ec42ff4f8f530518816123d0c6fb690778",
+    "transactionHash": "0x142abe21a4d3d41303774407f0a5405bb1719fe4eebe4748ead0e7126cc49e37",
+    "logs": [],
+    "blockNumber": 11787131,
+    "cumulativeGasUsed": "2761456",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "cf6b08766eb711bd2ff4a241da1d478a",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"lastMathResult\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"x\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"y\",\"type\":\"uint256\"}],\"name\":\"math\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"Perform complicated arithmetic that will dazzle the reader\",\"kind\":\"dev\",\"methods\":{\"math(uint256,uint256)\":{\"params\":{\"x\":\"A number\",\"y\":\"Another number\"},\"returns\":{\"_0\":\"Complicated result\"}}},\"title\":\"Sample contract\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"lastMathResult()\":{\"notice\":\"The last result of the math function\"},\"math(uint256,uint256)\":{\"notice\":\"Perform complicated arithmetic\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/Sample.sol\":\"Sample\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":9999},\"remappings\":[]},\"sources\":{\"contracts/Sample.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\r\\npragma solidity ^0.8.0;\\r\\n\\r\\n/**\\r\\n * @title Sample contract\\r\\n * @dev Perform complicated arithmetic that will dazzle the reader\\r\\n */\\r\\ncontract Sample {\\r\\n\\r\\n    /// @notice The last result of the math function\\r\\n    uint256 public lastMathResult;\\r\\n\\r\\n    /**\\r\\n     * @notice Perform complicated arithmetic\\r\\n     * @param x A number\\r\\n     * @param y Another number\\r\\n     * @return Complicated result\\r\\n     */\\r\\n    function math(uint256 x, uint256 y) public returns(uint256) {\\r\\n        uint256 res = x + y;\\r\\n        lastMathResult = res;\\r\\n        return res;\\r\\n    }\\r\\n}\\r\\n\",\"keccak256\":\"0x8e3485ee6a481b60f64bce0886458e2439ea4e07ff4d11d44da9e1aca54b5647\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061010d806100206000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806351368e25146037578063d1715f14146058575b600080fd5b604660423660046078565b6060565b60405190815260200160405180910390f35b604660005481565b600080606b83856099565b6000819055949350505050565b60008060408385031215608a57600080fd5b50508035926020909101359150565b6000821982111560d2577f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b50019056fea2646970667358221220a69ce6e056da55c030e8af75ad1535e7a9430bf7329fbc8d709793e01680d92764736f6c634300080b0033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806351368e25146037578063d1715f14146058575b600080fd5b604660423660046078565b6060565b60405190815260200160405180910390f35b604660005481565b600080606b83856099565b6000819055949350505050565b60008060408385031215608a57600080fd5b50508035926020909101359150565b6000821982111560d2577f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b50019056fea2646970667358221220a69ce6e056da55c030e8af75ad1535e7a9430bf7329fbc8d709793e01680d92764736f6c634300080b0033",
+  "devdoc": {
+    "details": "Perform complicated arithmetic that will dazzle the reader",
+    "kind": "dev",
+    "methods": {
+      "math(uint256,uint256)": {
+        "params": {
+          "x": "A number",
+          "y": "Another number"
+        },
+        "returns": {
+          "_0": "Complicated result"
+        }
+      }
+    },
+    "title": "Sample contract",
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {
+      "lastMathResult()": {
+        "notice": "The last result of the math function"
+      },
+      "math(uint256,uint256)": {
+        "notice": "Perform complicated arithmetic"
+      }
+    },
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 5,
+        "contract": "contracts/Sample.sol:Sample",
+        "label": "lastMathResult",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_uint256"
+      }
+    ],
+    "types": {
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
